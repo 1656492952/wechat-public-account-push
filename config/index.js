@@ -62,13 +62,13 @@ export const config = {
       // 想要发送的人的名字
       name: "宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oZwiw6uXlo11OSOHs_OrM_H0qgz4",
+      id: "oZwiw6tsFd5RqyWuifflw9kNkMjY",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "fx4NUMdplC1NWrPTuB3e3pD9X7UBrwg6XH-Wn0i7lEk",
       // 所在省份
       province: "重庆",
       // 所在城市
-      city: "重庆",
+      city: "开州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-28',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -141,7 +141,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "fx4NUMdplC1NWrPTuB3e3pD9X7UBrwg6XH-Wn0i7lEk",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -149,7 +149,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oZwiw6uXlo11OSOHs_OrM_H0qgz4",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -187,11 +187,11 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "宝贝", "year": "2001", "date": "06-25", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    //{"type": "*生日", "name": "宝贝", "year": "2001", "date": "06-25", isShowAge: true},
+    //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -211,11 +211,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    //{"keyword": "love_day", date: "2022-09-08"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+   //{"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+   //{"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
