@@ -187,7 +187,8 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    //{"type": "*生日", "name": "宝贝", "year": "2001", "date": "06-25", isShowAge: true},
+    {"type": "*生日", "name": "宝贝", "year": "2001", "date": "06-25", isShowAge: true}
+    //,
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
@@ -201,7 +202,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 1,
+  FESTIVALS_LIMIT: 4,
 
   /** 日期相关 */
 
@@ -211,7 +212,8 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    //{"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2022-09-08"}
+    //,
     // 结婚纪念日
    //{"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
